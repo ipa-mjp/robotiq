@@ -1,5 +1,29 @@
 # Robotiq
 
+## Installation
+
+**Notice**: The following commands are for ROS Noetic. You may have to modify them for other ROS distro.
+
+Clone the repo:
+
+```
+cd <YOUR_PATH>/catkin_ws/src
+git clone https://github.com/THU-DA-Robotics/robotiq.git -b noetic_devel
+```
+
+Install the dependencies:
+
+```
+cd <YOUR_PATH>/catkin_ws/src
+rosdep install -y --from-paths . --ignore-src --rosdistro noetic
+```
+
+
+
+----
+
+Previous README.
+
 ## Status
 
 As of 2021-05-28, it would appear this repository is ***unmaintained***.
