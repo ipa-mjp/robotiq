@@ -193,7 +193,7 @@
     </xacro:macro>
 
     <!-- base link -->
-    <link name="${prefix}base_link"/>
+    <!--<link name="${prefix}base_link"/>-->
     <joint name="${prefix}base_link-${prefix}robotiq_arg2f_base_link" type="fixed">
       <parent link="${prefix}base_link" />
       <child link="${prefix}robotiq_arg2f_base_link" />

@@ -45,7 +45,8 @@ The module depends on pymodbus (http://code.google.com/p/pymodbus/) for the Modb
 
 from __future__ import print_function
 
-from pymodbus.client.sync import ModbusSerialClient
+#from pymodbus.client.sync import ModbusSerialClient
+from pymodbus.client import ModbusSerialClient
 from math import ceil
 
 class communication:
